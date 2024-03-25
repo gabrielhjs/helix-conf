@@ -1,0 +1,5 @@
+theme = "dracula"
+
+[editor.lsp]
+display-inlay-hints = true
+
