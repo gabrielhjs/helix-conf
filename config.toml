@@ -3,3 +3,5 @@ theme = "dracula"
 [editor.lsp]
 display-inlay-hints = true
 
+[keys.normal]
+"g" = { "d" = ["vsplit", "jump_view_up", "goto_definition"] }
