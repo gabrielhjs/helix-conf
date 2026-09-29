@@ -1,0 +1,208 @@
+"ui.background" = { bg = "bg" }
+"ui.text" = { fg = "fg" }
+"ui.text.focus" = { fg = "fg_bright" }
+
+"ui.cursor" = { fg = "cursor_fg", bg = "cursor_bg" }
+"ui.cursor.primary" = { fg = "cursor_fg", bg = "cursor_bg" }
+"ui.cursor.match" = { fg = "yellow", modifiers = ["bold"] }
+
+"ui.cursorline.primary" = { bg = "bg1" }
+
+"ui.linenr" = { fg = "gray5" }
+"ui.linenr.selected" = { fg = "fg_bright", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "bg3" }
+"ui.selection.primary" = { bg = "bg3" }
+
+"ui.statusline" = { fg = "gray2", bg = "bg1" }
+"ui.statusline.inactive" = { fg = "gray5", bg = "bg" }
+"ui.statusline.normal" = { fg = "bg", bg = "blue" }
+"ui.statusline.insert" = { fg = "bg", bg = "green" }
+"ui.statusline.select" = { fg = "bg", bg = "violet" }
+
+"ui.bufferline" = { fg = "gray3", bg = "bg" }
+"ui.bufferline.active" = { fg = "fg_bright", bg = "bg1" }
+
+"ui.popup" = { fg = "gray2", bg = "bg" }
+"ui.popup.info" = { fg = "gray2", bg = "bg" }
+
+"ui.menu" = { fg = "fg_bright", bg = "bg" }
+"ui.menu.selected" = { fg = "fg_bright", bg = "bg3" }
+"ui.menu.scroll" = { fg = "bg3", bg = "bg" }
+
+"ui.window" = { fg = "bg2" }
+"ui.help" = { fg = "gray2", bg = "bg" }
+
+"ui.virtual.whitespace" = { fg = "bg4" }
+"ui.virtual.indent-guide" = { fg = "bg2" }
+"ui.virtual.ruler" = { bg = "bg1" }
+
+"ui.virtual.jump-label" = { fg = "red2", modifiers = ["bold"] }
+
+"ui.highlight" = { bg = "bg2" }
+"ui.highlight.frameline" = { bg = "bg2" }
+
+"ui.debug" = { fg = "red" }
+
+# Syntax
+
+"comment" = { fg = "gray4", modifiers = ["italic"] }
+
+"keyword" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.control" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.control.conditional" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.control.repeat" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.control.return" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.control.exception" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.directive" = { fg = "gray3" }
+"keyword.function" = { fg = "violet2", modifiers = ["italic"] }
+"keyword.operator" = { fg = "gray3" }
+
+"operator" = { fg = "gray3" }
+
+"punctuation" = { fg = "gray3" }
+"punctuation.delimiter" = { fg = "gray3" }
+"punctuation.bracket" = { fg = "gray3" }
+"punctuation.special" = { fg = "yellow3" }
+
+"variable" = { fg = "fg" }
+"variable.builtin" = { fg = "violet2" }
+"variable.parameter" = { fg = "gray3" }
+"variable.other.member" = { fg = "violet2" }
+
+"constant" = { fg = "orange" }
+"constant.builtin" = { fg = "orange" }
+"constant.character" = { fg = "green3" }
+"constant.character.escape" = { fg = "yellow3" }
+"constant.numeric" = { fg = "pink" }
+
+"string" = { fg = "green3" }
+"string.regexp" = { fg = "red3" }
+"string.special" = { fg = "yellow3" }
+"string.special.path" = { fg = "green3" }
+"string.special.url" = { fg = "blue3", modifiers = ["underlined"] }
+
+"function" = { fg = "blue3" }
+"function.builtin" = { fg = "blue3" }
+"function.method" = { fg = "blue3" }
+"function.macro" = { fg = "gray3" }
+"function.special" = { fg = "yellow3" }
+
+"type" = { fg = "aqua" }
+"type.builtin" = { fg = "aqua" }
+"type.enum.variant" = { fg = "orange" }
+
+"constructor" = { fg = "aqua" }
+
+"attribute" = { fg = "yellow3" }
+"namespace" = { fg = "violet2" }
+"module" = { fg = "violet2" }
+"label" = { fg = "violet2" }
+
+"tag" = { fg = "violet2" }
+"tag.builtin" = { fg = "violet2" }
+
+"special" = { fg = "yellow3" }
+
+# Markup
+
+"markup.heading" = { fg = "blue3", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "gray5" }
+
+"markup.bold" = { fg = "fg_bright", modifiers = ["bold"] }
+"markup.italic" = { fg = "fg", modifiers = ["italic"] }
+"markup.strikethrough" = { fg = "gray4", modifiers = ["crossed_out"] }
+
+"markup.link.text" = { fg = "blue3" }
+"markup.link.url" = { fg = "blue3", modifiers = ["underlined"] }
+
+"markup.quote" = { fg = "green3" }
+"markup.raw" = { fg = "yellow3" }
+
+"markup.list" = { fg = "violet2" }
+
+# Diagnostics
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue2", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "green4", style = "curl" } }
+
+error = "red"
+warning = "yellow"
+info = "blue2"
+hint = "green4"
+
+# Diff / Git
+
+"diff.plus" = { fg = "git_green" }
+"diff.minus" = { fg = "git_red" }
+"diff.delta" = { fg = "git_yellow" }
+"diff.delta.moved" = { fg = "blue3" }
+
+[palette]
+
+# Kanso Ink UI
+bg = "#14171d"
+bg1 = "#1f1f26"
+bg2 = "#22262D"
+bg3 = "#393B44"
+bg4 = "#4b4e57"
+
+fg = "#C5C9C7"
+fg_bright = "#f2f1ef"
+
+gray = "#717C7C"
+gray2 = "#A4A7A4"
+gray3 = "#909398"
+gray4 = "#75797f"
+gray5 = "#5C6066"
+
+# Kanso syntax colors
+red = "#C34043"
+red2 = "#E46876"
+red3 = "#c4746e"
+
+yellow = "#DCA561"
+yellow2 = "#E6C384"
+yellow3 = "#c4b28a"
+
+green = "#98BB6C"
+green2 = "#87a987"
+green3 = "#8a9a7b"
+green4 = "#6A9589"
+green5 = "#7AA89F"
+
+blue = "#7FB4CA"
+blue2 = "#658594"
+blue3 = "#8ba4b0"
+blue4 = "#8ea4a2"
+
+violet = "#938AA9"
+violet2 = "#8992a7"
+violet3 = "#949fb5"
+
+pink = "#a292a3"
+
+orange = "#b6927b"
+orange2 = "#b98d7b"
+
+aqua = "#8ea4a2"
+
+# Search / popup
+alt_blue1 = "#223249"
+alt_blue2 = "#2D4F67"
+
+# Git
+git_green = "#76946A"
+git_red = "#C34043"
+git_yellow = "#DCA561"
+
+# Diff backgrounds
+diff_green = "#2B3328"
+diff_yellow = "#49443C"
+diff_red = "#43242B"
+diff_blue = "#252535"
+
+cursor_bg = "#f2f1ef"
+cursor_fg = "#14171d"

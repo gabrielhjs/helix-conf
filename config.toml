@@ -1,7 +1,17 @@
-theme = "Dracula"
+# theme = "jellybeans"
+theme = "kaolin-dark"
+
+# [editor.soft-wrap]
+# enable = true
 
 [editor.lsp]
 display-inlay-hints = true
 
 [keys.normal]
 "g" = { "D" = ["vsplit", "jump_view_up", "goto_definition"] }
+
+[editor]
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
